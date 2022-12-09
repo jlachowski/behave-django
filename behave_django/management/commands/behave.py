@@ -33,7 +33,7 @@ def add_command_arguments(parser):
               'test suite after first failed test.'),
     )
     parser.add_argument(
-        '-r', '--reverse', action='store_const', const=True, dest='reverse',
+        '--reverse', action='store_const', const=True, dest='reverse',
         help='Reverses test cases order.',
     )
     parser.add_argument(
